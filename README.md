@@ -6,8 +6,6 @@ A responsive clone of the homepage of [Vakilsearch.com](https://vakilsearch.com)
 
 🔗 [View Deployed Site](https://reetu-gupta-clone-vakilsearch.netlify.app/)  
 
----
-
 ## 🛠 Tech Stack
 
 - HTML5
@@ -15,8 +13,6 @@ A responsive clone of the homepage of [Vakilsearch.com](https://vakilsearch.com)
 - JavaScript (ES6)
 - Git + GitHub
 - Netlify (Hosting)
-
----
 
 ## 📁 Key Features
 
@@ -26,14 +22,11 @@ A responsive clone of the homepage of [Vakilsearch.com](https://vakilsearch.com)
 - Services grid and call-to-action sections
 - Footer with links and contact info
 
----
-
 ## ⚙️ Tailwind Build Command
 
 ```bash
 npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
-
----
+```
 
 ## 🤝 Connect with Me
 
