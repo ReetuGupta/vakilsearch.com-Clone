@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family: "Roboto", sans-serif; 
+  --primary-blue: #022b50;
+  --secondary-yellow: #ffc24f;
+  --text-heading: 40px;
+  --text-subheading: 35px;
+}
+
+.group\/cards:hover .card-item {
+  opacity: 0.4;
+}
+
+.group\/cards:hover .card-item:hover {
+  opacity: 1 !important;
+}

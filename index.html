@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Legal Services for Startups & SMEs in India | Vakil Search</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Todhri&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Shizuru&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- output.css -->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="font-family bg-[#fbfbfb] font-normal scroll-smooth overflow-x-hidden">
+    <!-- header + nav -->
+    <header class="bg-(--primary-blue) fixed left-0 top-0 z-50 w-screen">
+        <div class="flex justify-between items-center px-10 py-3 lg:py-0.5 mx-auto" 
+            style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+
+            <div>
+                <img src="./assets/logo.svg" alt="" class="h-10">
+            </div>
+
+            <div class="flex gap-6 items-center text-white text-sm">
+                
+                <nav class="hidden lg:block">
+                    <ul class="flex gap-6 items-center justify-center">
+                        <li class="relative">
+                            <button id="btn" class="bg-(--secondary-yellow) font-bold py-1.5 px-3 rounded-sm text-black flex items-center gap-2 cursor-pointer transition-all duration-150 ease ">
+                                Consult an Expert
+                                <i class="fa-solid fa-caret-down"></i>
+                            </button>
+
+                            <div id="btn-dropdown" class="hidden absolute left-0 mt-3 p-4 w-[225px] top-full bg-white text-black"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="flex flex-col gap-3">
+                                    <li class="hover:text-[#007bff] transition-all duration-150 ease">
+                                        <a href="javascript:void(0)">
+                                            Notice Board
+                                        </a>
+                                    </li>
+                                    <li class="hover:text-[#007bff] transition-all duration-150 ease">
+                                        <a href="javascript:void(0)">
+                                            Notice Board
+                                        </a>
+                                    </li>
+                                    <li class="hover:text-[#007bff] transition-all duration-150 ease">
+                                        <a href="javascript:void(0)">
+                                            Notice Board
+                                        </a>
+                                    </li>
+                                    <li class="hover:text-[#007bff] transition-all duration-150 ease">
+                                        <a href="javascript:void(0)">
+                                            Notice Board
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="relative group">
+                            <button class="nav-link flex items-center justify-center gap-1 py-4">
+                                Business Setup
+                                <span class="up hidden"><i class="fa-solid fa-angle-up"></i></span>
+                                <span class="down"><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+
+                            <!-- main dropdown -->
+                            <div class="dropdown absolute top-full mt-3 left-0 bg-[#f7f7f7] z-20 hidden flex w-3xl h-[550px] py-2 px-3"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="w-2/5 text-sm">
+                                    <li class="text-[#212529] dropdown-item active py-4 px-1 focus:outline-2 rounded-sm hover:bg-white cursor-pointer flex justify-evenly items-center" data-child="busi-child-1">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="busi-child-2">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="busi-child-3">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="busi-child-4">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="busi-child-5">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+                                    
+                                </ul>
+
+                                <!-- subdropdown -->
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 active " id="busi-child-1">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Reg</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="busi-child-2">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">International Business Setup</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="busi-child-3">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Name Search</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="busi-child-4">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Licenses & Registrations</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black ">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="busi-child-5">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li> 
+
+                        <li class="relative group">
+                            <button class="nav-link flex items-center justify-center gap-1 py-4">
+                                Tax & Compliance
+                                <span class="up hidden"><i class="fa-solid fa-angle-up"></i></span>
+                                <span  class="down"><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+
+                                                        <!-- main dropdown -->
+                            <div class="dropdown absolute top-full mt-3 -left-32 bg-[#f7f7f7] z-20 hidden flex w-3xl h-[550px] py-2 px-3"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="w-2/5 text-sm">
+                                    <li class="text-[#212529] dropdown-item active py-4 px-1 focus:outline-2 rounded-sm hover:bg-white cursor-pointer flex justify-evenly items-center" data-child="tax-child-1">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-2">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-3">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-4">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-5">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-6">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="tax-child-7">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+                                    
+                                </ul>
+
+                                <!-- subdropdown -->
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 active " id="tax-child-1">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Reg</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="tax-child-2">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">International Business Setup</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="tax-child-3">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Name Search</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="tax-child-4">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Licenses & Registrations</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black ">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="tax-child-5">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="tax-child-6">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="tax-child-7">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="relative group">
+                            <button class="nav-link flex items-center justify-center gap-1 py-4">
+                                Trademark & IP
+                                <span class="up hidden"><i class="fa-solid fa-angle-up"></i></span>
+                                <span  class="down"><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+
+                                                        <!-- main dropdown -->
+                            <div class="dropdown absolute top-full mt-3 -left-60 bg-[#f7f7f7] z-20 hidden flex w-3xl h-[550px] py-2 px-3"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="w-2/5 text-sm">
+                                    <li class="text-[#212529] dropdown-item active py-4 px-1 focus:outline-2 rounded-sm hover:bg-white cursor-pointer flex justify-evenly items-center" data-child="trade-child-1">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="trade-child-2">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="trade-child-3">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="trade-child-4">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="trade-child-5">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+                                    
+                                </ul>
+
+                                <!-- subdropdown -->
+                                <div class="sub-dropdown bg-white px-8 py-4 active h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 " id="trade-child-1">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Reg</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="trade-child-2">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">International Business Setup</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="trade-child-3">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Name Search</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="trade-child-4">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Licenses & Registrations</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black ">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="trade-child-5">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="relative group">
+                            <button class="nav-link flex items-center justify-center gap-1 py-4">
+                                Documentation
+                                <span class="up hidden"><i class="fa-solid fa-angle-up"></i></span>
+                                <span  class="down"><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+
+                                                        <!-- main dropdown -->
+                            <div class="dropdown absolute top-full mt-3 -left-96 bg-[#f7f7f7] z-20 hidden flex w-3xl h-[550px] py-2 px-3"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="w-2/5 text-sm">
+                                    <li class="text-[#212529] dropdown-item active py-4 px-1 focus:outline-2 rounded-sm hover:bg-white cursor-pointer flex justify-evenly items-center" data-child="doc-child-1">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="doc-child-2">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="doc-child-3">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="doc-child-4">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="doc-child-5">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="doc-child-6">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+                                    
+                                </ul>
+
+                                <!-- subdropdown -->
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 active overflow-y-scroll" id="doc-child-1">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Reg</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="doc-child-2">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">International Business Setup</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="doc-child-3">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Name Search</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="doc-child-4">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Licenses & Registrations</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black ">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="doc-child-5">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="doc-child-6">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="relative group">
+                            <button class="nav-link flex items-center justify-center gap-1 py-4">
+                                Others
+                                <span class="up hidden"><i class="fa-solid fa-angle-up"></i></span>
+                                <span  class="down"><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+
+                                                        <!-- main dropdown -->
+                            <div class="dropdown absolute top-full mt-3 -right-20 bg-[#f7f7f7] z-20 hidden flex w-3xl h-[550px] py-2 px-3"
+                                style="box-shadow: 0px 4px 8px -2px #b6b4b4;">
+                                <ul class="w-2/5 text-sm">
+                                    <li class="text-[#212529] dropdown-item active py-4 px-1 focus:outline-2 rounded-sm hover:bg-white cursor-pointer flex justify-evenly items-center" data-child="other-child-1">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="other-child-2">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="other-child-3">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="other-child-4">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                    <li class="text-[#212529] dropdown-item py-4 px-1 rounded-sm focus:outline-2 hover:bg-white flex justify-evenly items-center cursor-pointer" data-child="other-child-5">
+                                        <img src="./assets/board.svg" alt="" class="float-left mr-1">
+                                        Company Registration
+                                        <i class="fa-solid fa-angle-right float-right ml-5"></i>
+                                    </li>
+
+                                </ul>
+
+                                <!-- subdropdown -->
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 active overflow-y-scroll" id="other-child-1">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Reg</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="other-child-2">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">International Business Setup</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="other-child-3">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Company Name Search</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden overflow-y-scroll" id="other-child-4">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Licenses & Registrations</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black ">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                    </ul>
+                                </div>
+
+                                <div class="sub-dropdown bg-white px-8 py-4 h-full ml-2 w-3/5 rounded-sm flex flex-col gap-2 hidden" id="other-child-5">
+                                    <h4 class="text-base text-[#071c35] font-semibold pb-2 border-b border-gray-100 hover:text-[#077bff] cursor-pointer">Web Development</h4>
+                                    <ul class="flex flex-col gap-3 text-sm text-black">
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        <li class="hover:text-[#077bff] cursor-pointer">Private Limited Company</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+                <div class="flex gap-6 justify-center items-center">
+                    <!-- login -->
+                    <button class="hidden lg:block border py-2 px-5 rounded-sm cursor-pointer">
+                        Login
+                    </button>
+                    <!-- user -->
+                    <button class="lg:hidden cursor-pointer">
+                        <img src="./assets/user.svg" alt="">
+                    </button>
+                    <!-- cross -->
+                    <!-- <button class="hidden cursor-pointer">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button> -->
+                    <!-- hamburger -->
+                    <div class="relative">
+                        <button id="menu-toggle" class="text-2xl cursor-pointer">
+                        <i id="menu-icon" class="fa-solid fa-bars"></i>
+                        </button>
+
+                        <div id="mobile-menu" class="hidden lg:hidden bg-[#f5f6f5] w-screen h-screen absolute top-full -right-10 mt-4 p-2 z-50 shadow-md">
+                            <ul class="flex flex-col gap-4">
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                                <li class="text-base text-[#212529] flex flex-row items-center justify-between px-4 py-2 border-b border-gray-400">
+                                    <span class="flex item-center gap-2 items-center">
+                                        <img src="./assets/board.svg" alt="">
+                                        Consult an Expert
+                                    </span>
+                                    <i class="fa-solid fa-angle-right mr-2"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative">
+
+    <!-- home -->
+        <section
+            class="mx-auto text-center text-white bg-[#022b50] relative mt-14 pt-20 pb-72 flex flex-col z-0 gap-6 items-center justify-center">
+            <img src="/assets/bg-image.webp" alt="" class="absolute left-0 object-cover h-4/5 top-1/5 -z-10">
+
+            <div class="flex gap-2 items-center-safe md:flex-row flex-col cursor-pointer">
+                <div class="flex gap-2 items-center-safe">
+                    <img src="/assets/grpimage.svg" alt="" class="h-8 md:h-12">
+                    <img src="/assets/stars.svg" alt="" class="h-6 md:h-8">
+                </div>
+                <p class="text-base md:text-[28px] cursor-pointer">4.5/5 <span class="text-base md:text-xl">(18k+ Reviews)</span></p>
+            </div>
+
+            <h1 class="text-3xl md:text-6xl font-bold">
+                India's <span class="text-[#ffc24f]">Top Rated</span> Professional Services Platform
+            </h1>
+
+            <p class="text-base md:text-2xl line-h max-w-fit w-1/2">
+                Connecting you with experts to simplify your legal, tax & compliance.
+            </p>
+
+            <div
+                class="mt-10 md:mt-14 bg-white flex items-center gap-1 w-full sm:w-3/4 md:w-2/3 max-w-5xl py-4 px-6 rounded-3xl">
+                <input type="text" name="searchbar" id="searchInput" placeholder="Search..." aria-label="Search"
+                    class="text-lg flex-grow outline-none text-gray-700 bg-transparent placeholder-gray-400 "/>
+                    
+                <i class="fa-solid fa-magnifying-glass text-gray-500 text-xl"></i>
+            </div>
+
+            <div class="flex gap-4 flex-wrap text-center mx-auto">
+                <a href="javascript:void(0)"
+                    class="rounded-xl bg-[#22384df0] text-[13px] py-2 px-4 border border-[rgb(94,110,124)] hover:bg-[#5e6e7c] transition-all duration-100 ease-in-out">
+                    GST Registration
+                </a>
+                <a href="javascript:void(0)"
+                    class="rounded-xl bg-[#22384df0] text-[13px] py-2 px-4 border border-[rgb(94,110,124)] hover:bg-[#5e6e7c] transition-all duration-100 ease-in-out">
+                    Company Registration
+                </a>
+                <a href="javascript:void(0)"
+                    class="rounded-xl bg-[#22384df0] text-[13px] py-2 px-4 border border-[rgb(94,110,124)] hover:bg-[#5e6e7c] transition-all duration-100 ease-in-out">
+                    Accounting & Business Compliance
+                </a>
+                <a href="javascript:void(0)"
+                    class="rounded-xl bg-[#22384df0] text-[13px] py-2 px-4 border border-[rgb(94,110,124)] hover:bg-[#5e6e7c] transition-all duration-100 ease-in-out">
+                    Trademark
+                </a>
+            </div>
+
+        </section>
+
+        <!-- cards sec -->
+        <section class="absolute top-3/4 w-full z-30 ">
+            <div class="flex overflow-x-auto pl-6 pr-4 gap-4 justify-center">
+                <div
+                    class="border border-gray-200 min-w-[150px] flex-shrink-0 bg-white rounded-md shadow-md p-4 pb-6 flex flex-col items-start gap-4">
+                    <h3 class="text-xl text-[#212529] font-bold">
+                        Register your company
+                    </h3>
+                    <p class="text-base text-[#243a4f]">
+                        Starting from &#8377;999
+                    </p>
+                    <img src="./assets/briefcase.svg" alt="" class="h-20 ml-0 place-content-start">
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                </div>
+                <div
+                    class="border border-gray-200 min-w-[150px] flex-shrink-0 bg-white rounded-md shadow-sm p-4 pb-6 flex flex-col items-start gap-4">
+                    <h3 class="text-xl text-[#212529] font-bold">
+                        Register your company
+                    </h3>
+                    <p class="text-base text-[#243a4f]">
+                        Starting from &#8377;999
+                    </p>
+                    <img src="./assets/briefcase.svg" alt="" class="h-20 ml-0 place-content-start">
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                </div>
+                <div
+                    class="border border-gray-200 min-w-[150px] flex-shrink-0 bg-white rounded-md shadow-sm p-4 pb-6 flex flex-col items-start gap-4">
+                    <h3 class="text-xl text-[#212529] font-bold">
+                        Register your company
+                    </h3>
+                    <p class="text-base text-[#243a4f]">
+                        Starting from &#8377;999
+                    </p>
+                    <img src="./assets/briefcase.svg" alt="" class="h-20 ml-0 place-content-start">
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                </div>
+                <div
+                    class="border border-gray-200 min-w-[150px] flex-shrink-0 bg-white rounded-md shadow-sm p-4 pb-6 flex flex-col items-start gap-4">
+                    <h3 class="text-xl text-[#212529] font-bold">
+                        Register your company
+                    </h3>
+                    <p class="text-base text-[#243a4f]">
+                        Starting from &#8377;999
+                    </p>
+                    <img src="./assets/briefcase.svg" alt="" class="h-20 ml-0 place-content-start">
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                </div>
+                <div
+                    class="border border-gray-200 min-w-[150px] flex-shrink-0 bg-white rounded-md shadow-sm p-4 pb-6 flex flex-col items-start gap-4">
+                    <h3 class="text-xl text-[#212529] font-bold">
+                        Register your company
+                    </h3>
+                    <p class="text-base text-[#243a4f]">
+                        Starting from &#8377;999
+                    </p>
+                    <img src="./assets/briefcase.svg" alt="" class="h-20 ml-0 place-content-start">
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                    <div
+                        class="hover:bg-slate-100 rounded-md transition-all duration-100 ease cursor-pointer text-xs text-[#2e2e2e] p-3 flex justify-between items-center w-full">
+                        <span>
+                            Private Limited Company
+                        </span>
+                        <i class="fa-solid fa-angle-right text-base"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- Legal Expert -->
+    <section class="mt-72 py-12 md:py-30 px-6 flex flex-col justify-center items-center mx-auto overflow-x-hidden">
+        <h2
+            class="text-[#022b50] w-full text-lg md:text-[40px] font-semibold text-center md:w-2/3 leading-5 md:leading-11 mb-12 md:mb-20">
+            350+ Verified CA, CS, and Legal Experts Ready to Streamline Your Business Operations.
+        </h2>
+        <div class="flex flex-row items-center justify-center gap-10">
+            <!-- img -->
+            <div>
+                <img src="./assets/man.svg" alt="" class="hidden lg:flex lg:h-[450px]">
+            </div>
+
+            <!-- cards -->
+            <div class="flex flex-col gap-4 w-full max-w-xl group/cards">
+
+                <div
+                    class="flex items-center gap-4 shadow-lg md:opacity-60 hover:opacity-100 rounded-md border border-gray-200 p-4 hover:shadow-lg transition-all cursor-pointer">
+                    <div>
+                        <img src="./assets/lawyer.svg" alt="" class="h-24">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-semibold">Talk to Lawyer</h3>
+                        <p class="text-base text-justify w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Perferendis, ratione!</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-4xl"></i>
+                </div>
+                <div
+                    class="flex items-center gap-4 shadow-lg md:opacity-60 hover:opacity-100 rounded-md border border-gray-200 p-4 hover:shadow-lg transition-all cursor-pointer">
+                    <div>
+                        <img src="./assets/lawyer.svg" alt="" class="h-24">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-semibold">Talk to Lawyer</h3>
+                        <p class="text-base text-justify w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Perferendis, ratione!</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-4xl"></i>
+                </div>
+                <div
+                    class="flex items-center gap-4 shadow-lg md:opacity-60 hover:opacity-100 rounded-md border border-gray-200 p-4 hover:shadow-lg transition-all cursor-pointer">
+                    <div>
+                        <img src="./assets/lawyer.svg" alt="" class="h-24">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-semibold">Talk to Lawyer</h3>
+                        <p class="text-base text-justify w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Perferendis, ratione!</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-4xl"></i>
+                </div>
+                <div
+                    class="flex items-center gap-4 shadow-lg md:opacity-60 hover:opacity-100 rounded-md border border-gray-200 p-4 hover:shadow-lg transition-all cursor-pointer">
+                    <div>
+                        <img src="./assets/lawyer.svg" alt="" class="h-24">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-semibold">Talk to Lawyer</h3>
+                        <p class="text-base text-justify w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Perferendis, ratione!</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-4xl"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our customers -->
+    <section class="bg-[#022b50] flex flex-col gap-8 md:gap-10 py-12 md:py-[50px] items-center justify-center overflow-x-hidden">
+        <h2 class="text-2xl md:text-4xl font-bold text-white">
+            Our Customers
+        </h2>
+        <div class="flex flex-wrap items-center justify-center gap-6 md:gap-20 max-w-[90%]">
+            <div class="flex items-center justify-center pt-4 md:pt-[52px]">
+                <img src="./assets/oyo.svg" alt="" />
+            </div>
+            <div class="flex items-center justify-center pt-4 md:pt-[52px]">
+                <img src="./assets/swiggy.svg" alt=""/>
+            </div>
+            <div class="flex items-center justify-center pt-4 md:pt-[52px]">
+                <img src="./assets/bigbasket.svg" alt=""/>
+            </div>
+            <div class="flex items-center justify-center pt-4 md:pt-[52px]">
+                <img src="./assets/hdfc.svg" alt=""/>
+            </div>
+            <div class="flex items-center justify-center pt-4 md:pt-[52px]">
+                <img src="./assets/amazon.svg" alt=""/>
+            </div>
+        </div>
+    </section>
+
+    <!-- product suite trial -->
+    <section class="py-12 md:py-30 flex flex-col justify-center items-center gap-20 overflow-x-hidden">
+        <div class="flex flex-col items-center justify-center gap-5">
+            <h2 class="text-2xl md:text-4xl text-[#022b50] font-bold">
+                Our Free Product Suite Trial
+            </h2>
+            <p class="text-base md:text-2xl text-[#284b6a]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nostrum?
+            </p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-20 justify-center items-center mx-auto px-10">
+            <div
+                class="flex flex-col gap-10 border border-gray-100 rounded-4xl shadow-xl bg-[#f6f6f6] py-16 px-10 items-start w-full md:max-w-xl">
+                <img src="./assets/libra.svg" alt="" class="h-7">
+                <h2 class="text-xl font-semibold md:text-[40px] text-[#022b50]">
+                    AI-powered case alerts & research for your legal practice
+                </h2>
+                <ul class="text-[#022b50] text-sm md:text-base flex flex-col gap-10">
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex item-start gap-1">
+                        <img src="./assets/tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                </ul>
+                <img src="./assets/libra-demo.webp" alt="" class="h-1/3 mx-auto">
+            </div>
+
+            <div
+                class="flex flex-col gap-10 border border-gray-100 rounded-4xl shadow-xl bg-[#022b50] text-white py-16 px-10 items-start w-full md:max-w-xl">
+                <img src="./assets/logo.svg" alt="" class="h-12">
+                <h2 class="text-xl font-semibold md:text-[40px]">
+                    AI-powered case alerts & research for your legal practice
+                </h2>
+                <ul class="text-sm md:text-base flex flex-col gap-10">
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/white-round-tick.svg" alt="" class="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex item-start gap-1">
+                        <img src="./assets/white-round-tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/white-round-tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                    <li class="flex items-start gap-1">
+                        <img src="./assets/white-round-tick.svg" alt="">
+                        <span class="font-bold">Heading:</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
+                    </li>
+                </ul>
+                <img src="./assets/libra-demo.webp" alt="" class="h-1/3 mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- security & confidentiality results -->
+    <section class="overflow-x-hidden lg:mx-36 flex py-5 flex-col lg:flex-row lg:rounded-3xl items-center gap-5 bg-gradient-to-r from-[#FDF4C8] to-[#FFFDF27D] border border-[#FFFDF27D] shadow-lg">
+        <div class="lg:-ml-16 -mt-16">
+            <img src="./assets/security-shield.svg" alt="" class="">
+        </div>
+        <div class="flex flex-col gap-6 justify-between">
+            <h2 class="text-[#001d37] text-2xl md:text-4xl font-bold text-center">
+                Security, Confidentiality & Results
+            </h2>
+
+            <ul class="flex flex-col lg:flex-row gap-8 items-center">
+                <li class="flex items-start gap-1">
+                    <img src="./assets/yellow-round-tick.svg" alt="">
+                    <p class="text-[#434a53] text-base md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </li>
+                <li class="flex items-start gap-1">
+                    <img src="./assets/yellow-round-tick.svg" alt="">
+                    <p class="text-[#434a53] text-base md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </li>
+                <li class="flex items-start gap-1">
+                    <img src="./assets/yellow-round-tick.svg" alt="">
+                    <p class="text-[#434a53] text-base md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- success stories and reviews -->
+    <section class="overflow-x-hidden max-w-6xl mx-auto px-4 py-10 my-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">
+            Success Stories & Reviews
+        </h2>
+        <div class="relative flex items-center justify-center px-6">
+            
+            <button onclick="prevSlide()" class="absolute -left-10 z-10 bg-gray-300 hover:bg-(--primary-blue) rounded-md p-2">
+            <svg class="w-4 h-4" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+
+            <div class="overflow-x-hidden w-full">
+            <div id="slider" class="flex transition-transform duration-500">
+                <!-- slide1 -->
+                <div class="min-w-full flex flex-col md:flex-row items-center gap-4">
+                    <div class="bg-(--primary-blue) text-white rounded-md p-6 md:p-15 w-full md:w-3/4">
+                        <p class="italic text-sm md:text-xl leading-relaxed">
+                        “Prakash from Vakilsearch ensured seamless compliance handling for Kartisoft.
+                        Highly recommend their reliable services and expert support.”
+                        </p>
+                    </div>
+                    <div class="bg-[#E6EAEE] p-6 md:py-10 rounded-md flex flex-col gap-2 md:flex-row items-center w-fit md:w-1/4">
+                        <img src="./assets/customer_1.svg" class="w-24 h-24 rounded-md object-cover mb-2" />
+                        <p class="text-black text-center font-semibold text-lg">Sandeep Sangam</p>
+                    </div>
+                </div>
+
+                <!-- slide2 -->
+                <div class="min-w-full flex flex-col md:flex-row items-center gap-4">
+                    <div class="bg-(--primary-blue) text-white rounded-md p-6 md:p-15 w-full md:w-3/4">
+                        <p class="italic text-sm md:text-xl leading-relaxed">
+                        “Prakash from Vakilsearch ensured seamless compliance handling for Kartisoft.
+                        Highly recommend their reliable services and expert support.”
+                        </p>
+                    </div>
+                    <div class="bg-[#E6EAEE] p-6 md:py-10 rounded-md flex flex-col gap-4 md:flex-row items-center w-fit md:w-1/4">
+                        <img src="./assets/customer_1.svg" class="w-24 h-24 rounded-md object-cover mb-2" />
+                        <p class="text-black text-center font-semibold text-lg">Sandeep Sangam</p>
+                    </div>
+                </div>
+
+                <!-- slide3 -->
+                <div class="min-w-full flex flex-col md:flex-row items-center gap-4">
+                    <div class="bg-(--primary-blue) text-white rounded-md p-6 md:p-15 w-full md:w-3/4">
+                        <p class="italic text-sm md:text-xl leading-relaxed">
+                        “Prakash from Vakilsearch ensured seamless compliance handling for Kartisoft.
+                        Highly recommend their reliable services and expert support.”
+                        </p>
+                    </div>
+                    <div class="bg-[#E6EAEE] p-6 md:py-10 rounded-md flex flex-col gap-4 md:flex-row items-center w-fit md:w-1/4">
+                        <img src="./assets/customer_1.svg" class="w-24 h-24 rounded-md object-cover mb-2" />
+                        <p class="text-black text-center font-semibold text-lg">Sandeep Sangam</p>
+                    </div>
+                </div>
+
+                <!-- slide4 -->
+                <div class="min-w-full flex flex-col md:flex-row items-center gap-4">
+                    <div class="bg-(--primary-blue) text-white rounded-md p-6 md:p-15 w-full md:w-3/4">
+                        <p class="italic text-sm md:text-xl leading-relaxed">
+                        “Prakash from Vakilsearch ensured seamless compliance handling for Kartisoft.
+                        Highly recommend their reliable services and expert support.”
+                        </p>
+                    </div>
+                    <div class="bg-[#E6EAEE] p-6 md:py-10 rounded-md flex flex-col gap-4 md:flex-row items-center w-fit md:w-1/4">
+                        <img src="./assets/customer_1.svg" class="w-24 h-24 rounded-md object-cover mb-2" />
+                        <p class="text-black text-center font-semibold text-lg">Sandeep Sangam</p>
+                    </div>
+                </div>
+
+                <!-- slide5 -->
+                <div class="min-w-full flex flex-col md:flex-row items-center gap-4">
+                    <div class="bg-(--primary-blue) text-white rounded-md p-6 md:p-15 w-full md:w-3/4">
+                        <p class="italic text-sm md:text-xl leading-relaxed">
+                        “Prakash from Vakilsearch ensured seamless compliance handling for Kartisoft.
+                        Highly recommend their reliable services and expert support.”
+                        </p>
+                    </div>
+                    <div class="bg-[#E6EAEE] p-6 md:py-10 rounded-md flex flex-col gap-4 md:flex-row items-center w-fit md:w-1/4">
+                        <img src="./assets/customer_1.svg" class="w-24 h-24 rounded-md object-cover mb-2" />
+                        <p class="text-black text-center font-semibold text-lg">Sandeep Sangam</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <button onclick="nextSlide()" class="absolute -right-10 z-10 bg-gray-300 hover:bg-(--primary-blue) rounded-md p-2">
+            <svg class="w-4 h-4 rotate-180" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+        </div>
+
+        <div class="flex justify-center mt-6 gap-2">
+            <div class="w-45 h-1 rounded bg-(--primary-blue)" id="dot0"></div>
+            <div class="w-45 h-1 rounded bg-[#CACED1]" id="dot1"></div>
+            <div class="w-45 h-1 rounded bg-[#CACED1]" id="dot2"></div>
+            <div class="w-45 h-1 rounded bg-[#CACED1]" id="dot3"></div>
+            <div class="w-45 h-1 rounded bg-[#CACED1]" id="dot4"></div>
+        </div>
+    </section>
+
+    <!-- customers love -->
+    <section class="overflow-x-hidden bg-[#F6F6F6] py-12 md:py-30 flex flex-col-reverse lg:flex-row items-center justify-center gap-10 md:gap-20 px-6 lg:px-0">
+        <div class="flex flex-col">
+            <img src="./assets/metrics.svg" alt="" class="hidden lg:block w-full max-w-[600px] mx-auto">
+            <img src="./assets/metrics.svg" alt="" class="block lg:hidden w-[300px] h-[300px] md:w-[500px] md:h-[500px] mx-auto">
+        </div>
+        <div class="flex flex-col gap-6 md:gap-14">
+            <h2 class="text-[#212529] text-2xl md:text-4xl font-bold text-center md:text-left leading-snug">
+                Why Do Customers Love Us?
+            </h2>
+            <div class="flex gap-4 md:gap-6 items-start max-w-[320px] md:max-w-[560px]">
+                <img src="./assets/symbol.svg" alt="" class="w-[48px] h-[48px] md:w-[65px] md:h-[65px]">
+                <div class="text-[#231f20]">
+                    <h4 class="text-lg md:text-2xl font-semibold pb-1">
+                        Affordable Professional Services
+                    </h4>
+                    <p class="text-xs md:text-xl">
+                        Proven legal and financial solutions with senior experts.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 md:gap-6 items-start max-w-[320px] md:max-w-[560px]">
+                <img src="./assets/symbol.svg" alt="" class="w-[48px] h-[48px] md:w-[65px] md:h-[65px]">
+                <div class="text-[#231f20]">
+                    <h4 class="text-lg md:text-2xl font-semibold pb-1">
+                        Affordable Professional Services
+                    </h4>
+                    <p class="text-xs md:text-xl">
+                        Proven legal and financial solutions with senior experts.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 md:gap-6 items-start max-w-[320px] md:max-w-[560px]">
+                <img src="./assets/symbol.svg" alt="" class="w-[48px] h-[48px] md:w-[65px] md:h-[65px]">
+                <div class="text-[#231f20]">
+                    <h4 class="text-lg md:text-2xl font-semibold pb-1">
+                        Affordable Professional Services
+                    </h4>
+                    <p class="text-xs md:text-xl">
+                        Proven legal and financial solutions with senior experts.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 md:gap-6 items-start max-w-[320px] md:max-w-[560px]">
+                <img src="./assets/symbol.svg" alt="" class="w-[48px] h-[48px] md:w-[65px] md:h-[65px]">
+                <div class="text-[#231f20]">
+                    <h4 class="text-lg md:text-2xl font-semibold pb-1">
+                        Affordable Professional Services
+                    </h4>
+                    <p class="text-xs md:text-xl">
+                        Proven legal and financial solutions with senior experts.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- register business -->
+    <section class="bg-(--primary-blue) mb-30 ">
+        <div class="relative mx-auto flex flex-row py-10 px-5 lg:px-44">
+             
+            <div class="flex flex-col text-left text-white  px-5 gap-2 md:gap-5">
+                <p class="text-2xl md:text-4xl font-bold">
+                    Register your Business with confidence
+                </p>
+                 <p class="text-sm md:text-lg">
+                    From documents to compliance—Vakilsearch handles it all for your company registration.
+                </p>
+                <a href="" class="w-fit p-4 text-base md:text-xl font-medium cursor-pointer bg-[#FCD209] text-[#022B50] px-6 lg:px-10 rounded-[4px]">
+                    Register Now
+                </a>
+            </div>
+
+            <img src="./assets/women.svg" alt="" class="w-[200px] h-[140px] md:h-fit md:w-fit lg:absolute lg:right-30 lg:-bottom-1">
+        </div>
+    </section>
+
+    <!-- validate sec -->
+    <section class="overflow-x-hidden flex flex-col gap-10 pb-12 md:pb-30 items-center justify-between px-8 lg:px-44">
+        <h2 class="text-2xl text-[#212429] md:text-[40px] font-bold">
+            Validated Vision, Exceptional Results
+        </h2>
+        <p class="text-[#434a53] text-base md:text-2xl text-center items-center justify-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quaerat corporis impedit mollitia maiores
+            soluta alias aliquam, magnam cupiditate expedita, dignissimos repudiandae deserunt recusandae nesciunt
+            minima iste temporibus sequi? Culpa!
+        </p>
+        <div class="flex flex-wrap gap-20 justify-between w-full">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+        </div>
+    </section>
+
+    <!-- news sec -->
+    <section class="overflow-x-hidden flex flex-col gap-10 items-center justify-between px-8 lg:px-44">
+        <h2 class="text-2xl text-[#212429] md:text-[40px] font-bold">
+            Validated Vision, Exceptional Results
+        </h2>
+        <div class="flex flex-wrap gap-20 justify-between w-full">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+            <img src="./assets/incorpp.svg" alt="">
+        </div>
+    </section>
+
+    <!-- latest articles -->
+    <section class="overflow-x-hidden py-20 flex flex-col w-full mx-auto md:gap-12 gap-6 md:mt-10 px-6 lg:px-44 items-center justify-center ">
+        <h2 class="text-2xl text-center text-[#212429] md:text-[40px] font-bold leading-12">
+            Our Latest Articles
+        </h2>
+
+        <div class="w-full flex flex-col md:flex-row justify-center md:gap-[150px] gap-12 px-4">
+            <div class="flex flex-col max-md:gap-3">
+                <img src="./assets/trademark.webp" alt="" class="w-full h-52 md:h-[300px]">
+                <div class="flex flex-col md:mt-12 md:gap-3">
+                    <h3 class="text-xl md:text-3xl text-left font-medium leading-9 py-4 md:py-0">
+                    Trademark Registration Fees in India: Complete Fees Structure
+                    </h3>
+                    <div class="text-sm md:text-lg text-left text-[#434A53] font-normal md:leading-8 max-w-[270px] md:max-w-[450px]">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, exercitationem.
+                    </p>
+                    </div>
+                    <a class="text-lg md:text-lg cursor-pointer text-left text-[#434A53] font-normal leading-8 underline pt-4 md:pt-0" href="javascript:void(0)">
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col max-md:gap-3">
+                <img src="./assets/trademark.webp" alt="" class="w-full h-52 md:h-[300px]">
+                <div class="flex flex-col md:mt-12 md:gap-3">
+                    <h3 class="text-xl md:text-3xl text-left font-medium leading-9 py-4 md:py-0">
+                    Trademark Registration Fees in India: Complete Fees Structure
+                    </h3>
+                    <div class="text-sm md:text-lg text-left text-[#434A53] font-normal md:leading-8 max-w-[270px] md:max-w-[450px]">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, exercitationem.
+                    </p>
+                    </div>
+                    <a class="text-lg md:text-lg cursor-pointer text-left text-[#434A53] font-normal leading-8 underline pt-4 md:pt-0" href="javascript:void(0)">
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="overflow-x-hidden bg-(--primary-blue) flex flex-col gap-18 py-20 px-5 mx-auto xl:px-44 w-screen">
+        <div class="items-center justify-center flex gap-8">
+            <div class="flex gap-8 items-center justify-between py-4 px-6 border border-[#6E7C8D] rounded-md">
+                <div class="text-gray-200">
+                    <p class="text-2xl font-semibold">4.3/5</p>
+                    <p class="text-sm">reviews on</p>
+                </div>
+                <div>
+                    <img src="./assets/google_logo.svg" alt="" class="h-8">
+                </div>
+            </div>
+            <div class="flex gap-8 items-center justify-between py-4 px-6 border border-[#6E7C8D] rounded-md">
+                <div class="text-gray-200">
+                    <p class="text-2xl font-semibold">4.3/5</p>
+                    <p class="text-sm">reviews on</p>
+                </div>
+                <div>
+                    <img src="./assets/google_logo.svg" alt="" class="h-8">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-6 text-[#e0f2ff]">
+            <h3 class="text-2xl md:pb-3 md:border-b font-medium">Corporate and Legal Solutions</h3>
+            <div class="text-base md:text-xl flex flex-wrap gap-5 justify-between max-sm:flex-col lg:flex-row">
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-6 text-[#e0f2ff]">
+            <h3 class="text-2xl md:pb-3 md:border-b font-medium">Finance and Investment Calculators</h3>
+            <div class="text-base md:text-xl grid sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-6 text-[#e0f2ff]">
+            <h3 class="text-2xl md:pb-3 md:border-b font-medium">Business and Legal Resources</h3>
+            <div class="text-base md:text-xl grid sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+                <p class="cursor-pointer">Company Registration</p>
+            </div>
+        </div>
+
+        <p class="text-center text-xs md:text-sm text-white -mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nisi? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Laborum qui veritatis adipisci quo dolorum explicabo vitae necessitatibus iure
+            repellendus illum.
+        </p>
+
+        <p class="text-center text-xs md:text-sm text-white -mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nisi? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Laborum qui veritatis adipisci quo dolorum explicabo vitae necessitatibus iure
+            repellendus illum.
+        </p>
+
+        <p class="text-center text-xs md:text-sm text-white">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nisi? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Laborum qui veritatis adipisci quo dolorum explicabo
+            vitae necessitatibus iure repellendus illum.
+        </p>
+
+        <div class="flex justify-between flex-col-reverse md:flex-row gap-10">
+            <div class="flex flex-col gap-[70px]">
+                <img src="./assets/zolvit_logo_gray.svg" alt="" class="hidden md:block h-12">
+                
+                <div class="flex items-end gap-6">
+                    <a href="javascript:void(0)">
+                        <img src="/assets/facebook.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="/assets/instagram.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="/assets/linkedin.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="/assets/twitter.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="/assets/youtube.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex md:items-end w-full">
+                <div
+                    class="text-base md:text-xl gap-5 w-full grid sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-5 text-[#e0f2fe]">
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                   <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <p class="w-full">
+                            About Us
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
